@@ -13,19 +13,17 @@
   </head>
   <body id="main-page-background">
     <div class="search-box">
-      <form id="searchbox-submit">
-        <input
-          id="search-box-input"
-          type="text"
-          class="input-search"
-          placeholder="Type to Search..."
-          required
-        />
-        <button class="btn-search"><i class="fas fa-search"></i></button>
-      </form>
-      <ul id="main-list">
-        Yemeker Sıralı liste
-      </ul>
+      <h2 id="name-tag"></h2>
+      <input
+        id="search-box-input"
+        type="text"
+        class="input-search"
+        placeholder="Type to Search..."
+        required
+      />
+
+      <button class="btn-search"><i class="fas fa-search"></i></button>
+      <div id="searched-food-DOM"></div>
     </div>
 
     <script type="module" src="index.js"></script>
